@@ -1,0 +1,11 @@
+h2. fAECade processing simulator
+
+This is a stripped down version of the aec_efficiency
+code. The idea is to rip out the part where the
+original code was sending UDP packets to the facade
+server, add a simple UDP server, and use that to test
+drive the aec display driver code
+
+In its current state, this does nothing. The UDP server
+that needs to handle display update still needs to be
+written.
